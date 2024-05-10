@@ -1,4 +1,6 @@
 <?php
+//ex2Entrar com um número e informar se ele é divisível por 10, por 5, por 2 
+//ou se não é divisível por nenhum destes.
 function verificarDivisibilidade($numero) {
     // Verifica se o número é divisível por 10, 5 e 2 simultaneamente
     if ($numero % 10 == 0 && $numero % 5 == 0 && $numero % 2 == 0) {
